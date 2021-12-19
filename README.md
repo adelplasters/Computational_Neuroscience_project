@@ -23,7 +23,7 @@ Are also proposed two different codes, one for populations composed by 200 neuro
 
  | 200 neurons  | 50 neurons |
 | ------------- | ------------- |
-|  <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/ord200.png" width="700">| <img src="https://github.com/adelplasters/peristaltic_pump/blob/main/ord50.png" width="450"> |
+|  <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/ord200.png" width="700">| <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/ord50.png" width="450"> |
  
 
  ## NRP platfrom  
