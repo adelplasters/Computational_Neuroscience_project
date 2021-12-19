@@ -31,7 +31,7 @@ Are also proposed two different codes, one for populations composed by 200 neuro
  
 
  ## NRP platfrom  
-The virtual protocol is implemented into the [neurorobotics](https://github.com/adelplasters/peristaltic_pump/blob/main/Arduino_code.ino) platform, which allows to set up artificial experiments using robot and brain models.  
+The virtual protocol is implemented into the [neurorobotics](https://www.neurorobotics.net/access-the-nrp.html) platform, which allows to set up artificial experiments using robot and brain models.  
 
 The environment setting includes a robotic arm and a camera watching towards a screen, a circle appearing on a screen triggers the decision. 
 
