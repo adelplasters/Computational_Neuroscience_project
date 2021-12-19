@@ -1,35 +1,32 @@
 # Computational_Neuroscience_project
 
-
-
-# peristaltic_pump
- <img src="https://github.com/adelplasters/peristaltic_pump/blob/main/peristaltic.png" width="700">
-The project task is to drive a peristaltic pump using just one capacitive touch sensor, for this purpose different commands were implemented:
-* switching ON/OFF 
-* decreasing the speed
-* increasing the speed 
-* changing direction of rotation 
-
-In order to make the usage user-friendly, the commands can be selected touching the sensor for a short or a long time. 
-
-
-
-
-  ## software
+    Authors: Adelaide Stucchi, Corina Sidere, Gabriele Calamai, Gioia D'Andrea, Veronica Fossati
     
-   ### processing & arduino 
-       
-   ***download all the contents from PROCESSING folder in order to run correctly the code***
-      
-   the processing code creates a virtual version of the pump, [Arduino_code](https://github.com/adelplasters/peristaltic_pump/blob/main/Arduino_code.ino) pilots both the real and virtual pumps 
-       
-       
-       
+***
+ <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/env1.png" width="700">
+The aim of the project is to simulate a decision - making protocol based on the experiments described in articles already published.
+
+The task includes a robotic arm which has to decide wether throw a ball in a right net or left one, depending on an external indication. 
+The robot is able to take the decision thanks to the neural network, which has the following structure: 
+
+ <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/net.png" width="700">
+ 
+We start from two excitatory neuronal populations, A and B, with their proper external input stimuli, the populations are able to excite themselves whether their own stimulus is high. The decision making is binary, so just one stimulus at time can be high, the group for which this doesn’t happen is inhibited by a third population, which is composed by inhibitory interneurons. 
+ Noise is another typology of external input, it is add in order to create a network coherent with the physiology of the real ones, in fact noise is always present in real neural connections. 
+ 
+Here are shown the raster plots for three different input stimuli: 
+* only noise
+* only stimulus A
+* only stimulus B 
+ 
  | Arduino chart flow  | Processing chart flow |
 | ------------- | ------------- |
 |  <img src="https://github.com/adelplasters/peristaltic_pump/blob/main/Flowchart_Arduino.jpg" width="345"> | <img src="https://github.com/adelplasters/peristaltic_pump/blob/main/flowchart_Processing.png" width="450"> |
+ 
 
+ ## NRP platfrom  
+ 
 
-For a better understanding of the functioning you can give a look to the [circuit with leds](https://github.com/adelplasters/peristaltic_pump/blob/main/circuit_leds.mp4) and to the [overall demonstration](https://github.com/adelplasters/peristaltic_pump/blob/main/final_video.mp4)
+      
  
    * * *
