@@ -1,4 +1,4 @@
-# Computational_Neuroscience_project
+# Computational Neuroscience Project
 
     Authors: Adelaide Stucchi, Corina Sidere, Gabriele Calamai, Gioia D'Andrea, Veronica Fossati
     
@@ -6,7 +6,7 @@
 <p align="center">
   <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/env1.png" width="700">
 </p>
- <img src="https://github.com/adelplasters/Computational_Neuroscience_project/blob/main/env1.png" width="700">
+
 The aim of the project is to simulate a decision - making protocol based on the experiments described in articles already published.
 
 The task includes a robotic arm which has to decide wether throw a ball in a right net or left one, depending on an external indication. 
